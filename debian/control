@@ -1,0 +1,13 @@
+Source: ros-kinetic-complex-behaviors
+Section: misc
+Priority: optional
+Maintainer: Micha Sende <sende@lakeside-labs.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: https://wiki.ros.org/complex_behaviors
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-complex-behaviors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-sar, ros-kinetic-storage
+Description: The complex behaviors library contains complex behaviors for swarms of cyber-physical systems (CPSs).
+ It is part of the swarm library.
