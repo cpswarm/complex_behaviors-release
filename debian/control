@@ -1,0 +1,12 @@
+Source: ros-kinetic-sar
+Section: misc
+Priority: optional
+Maintainer: Micha Sende <sende@lakeside-labs.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: https://wiki.ros.org/sar
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-sar
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: A package that performs search and rescue (SAR) with a heterogeneous swarm of cyber physical systems (CPSs), i.e., unmanned aerial and ground vehicles (UAVs and UGVs).
